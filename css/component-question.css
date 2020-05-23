@@ -1,0 +1,12 @@
+.question {
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(46,62,72,.12);
+}
+
+.question h2 {
+	color: #0098ab;
+	font-size: 20px;
+	padding: 5px;
+	margin: 0;
+	font-weight: 400;
+}
