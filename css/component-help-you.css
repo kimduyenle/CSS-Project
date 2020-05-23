@@ -1,0 +1,28 @@
+.help-you {
+	flex-basis: 33.3333%;
+	flex-grow: 1;
+	padding: 20px 20px 20px 0;
+}
+
+.help-you .link-image img {
+	width: 100%;
+	margin-bottom: 24px;
+}
+
+.help-you .title h2 {
+	color: rgb(33, 33, 33);
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0 0 20px;
+}
+
+.help-you .intro {
+	color: rgb(117, 117, 117);
+	font-weight: 400;
+	margin: 0 0 20px;
+}
+
+.help-you .link {
+	color: #00a2c7;
+	font-weight: 500;
+}
