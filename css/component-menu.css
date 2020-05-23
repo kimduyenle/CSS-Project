@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(46,62,72,.12);
+	padding: 20px;
+}
+
+.menu .logo img {
+	height: 44px;
+}
+
+.menu .right-menu {
+	list-style: none;
+}
+
+.menu .right-menu li {
+	display: inline-block;
+}
+
+.menu .right-menu li .item {
+	font-family: Arial, sans-serif;
+	color: #757575;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+.menu .right-menu li .item:hover {
+	color: #0098ab;
+}
