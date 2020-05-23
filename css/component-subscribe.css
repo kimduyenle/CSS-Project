@@ -1,0 +1,74 @@
+.subscribe {
+	background-color: #00455d;
+	color: #fff;
+	padding: 100px 0;
+	position: relative;
+}
+
+.subscribe img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.subscribe .content {
+	display: flex;
+	align-items: center;
+	max-width: 1074px;
+	margin: auto;
+}
+
+.subscribe .content .intro {
+	flex-basis: 50%;
+	flex-grow: 1;
+}
+
+.subscribe .content .price {
+	flex-basis: 50%;
+	flex-grow: 1;
+}
+
+.subscribe .content .intro .title {
+	font-weight: 700;
+	margin: 0 0 20px;
+	line-height: 38px;
+}
+
+.subscribe .content .intro .subtitle {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+.subscribe .content .intro .list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.subscribe .content .intro .list li {
+	font-size: 16px;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.subscribe .content .intro .list i {
+	margin-right: 15px;
+	color: #0098ab;
+}
+
+.subscribe .price h2 {
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 13px;
+}
+
+.subscribe .price p span:nth-child(1) {
+	font-weight: 700;
+	font-size: 32px;
+}
+
+.subscribe .price p span:nth-child(2) {
+	font-weight: 700;
+	font-size: 16px;
+}
