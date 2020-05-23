@@ -1,0 +1,142 @@
+.footer {
+	color: #fff;
+}
+
+.footer .top {
+	background-color: #353e48;
+}
+
+.footer .bottom {
+	background-color: rgb(47, 54, 63);
+}
+
+.footer .wrapper {
+	max-width: 1100px;
+	margin: auto;
+}
+
+.footer .wrapper .pd {
+	padding: 0 20px;
+}
+
+.footer .start {
+	padding: 40px 0;
+	border-bottom: 1px solid #5d656d;
+}
+
+.footer .start a {
+	color: white;
+	text-decoration: underline !important;
+}
+
+.footer .start a:hover {
+	text-decoration: none !important;
+}
+
+.footer .center {
+	height: 400px;
+	display: flex;
+}
+
+.footer .center .list {
+	list-style: none;
+	float: left;
+	/*width: 236px;*/
+	padding: 0;
+	margin: 0;
+}
+
+.footer .center .list.list-1 {
+	flex-basis: 22%;
+	flex-grow: 1;
+}
+
+.footer .center .list.list-2 {
+	flex-basis: 22%;
+	flex-grow: 1;
+}
+
+.footer .center .list.list-3 {
+	flex-basis: 22%;
+	flex-grow: 1;
+}
+
+.footer .center .list.list-4 {
+	/*width: 353px;*/
+	flex-basis: 34%;
+	flex-grow: 1;
+}
+
+.footer .end {
+	font-size: 14px;
+	clear: both;
+	padding: 24px 0;
+}
+
+.footer::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.footer .center .list li {
+	margin-top: 26px;
+}
+
+.footer .center .list li.title {
+	margin-top: 40px;
+	font-weight: 600;
+}
+
+.footer .center .list.list-4 i {
+	font-size: 22px;
+	margin-right: 40px;
+}
+
+.footer .center .list.list-4 select {
+	background-color: rgb(15, 23, 33);
+	color: white;
+	border: 1px solid #d9d9d9;
+	border-radius: 4px;
+	width: 353px;
+	height: 55px;
+	padding-left: 10px;
+	margin-top: -6px;
+}
+
+.footer .center .list.list-4 select:hover {
+	border-color: #a2a2a2;
+}
+
+.footer .center .list.list-4 select:focus {
+	border-color: #0098ab;
+	outline: none;
+}
+
+.footer .center .list.list-4 img {
+	width: 160px;
+	margin-top: 14px;
+}
+
+.footer .center .list.list-4 li a:first-child img {
+	margin-right: 28px;
+}
+
+.footer .center .list li a {
+	color: rgba(255, 255, 255, 0.7);
+	text-decoration: none;
+}
+
+.footer .end .row-1 {
+	margin-bottom: 26px;
+}
+
+.footer .end a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer .end i {
+	font-size: 2px;
+	padding: 0 5px;
+}
