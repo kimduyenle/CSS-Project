@@ -1,0 +1,50 @@
+.people {
+	padding: 50px 0;
+	color: #fff;
+	background-color: #00455d;
+}
+
+.people .content {
+	max-width: 1074px;
+	margin: auto;
+}
+
+.people .content .title {
+	margin: 0 0 48px;
+	font-weight: 700;
+}
+
+.people .content .center {
+	display: flex;
+	align-items: center;
+}
+
+.people .content .center .left {
+	flex-basis: 50%;
+	flex-grow: 1;
+	padding-right: 30px;
+}
+
+.people .content .center .right {
+	flex-basis: 50%;
+	flex-grow: 1;
+}
+
+.people .content .center .left img {
+	border-radius: 8px;
+	width: 100%;
+}
+
+.people .content .center .para-1 {
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0 0 32px;
+}
+
+.people .content .center .para-2 {
+	margin: 0 0 32px;
+}
+
+.people .content .center .para-3 {
+	font-size: 12px;
+}
