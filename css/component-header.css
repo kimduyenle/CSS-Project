@@ -1,0 +1,44 @@
+.header {
+	font-family: Arial, sans-serif;
+	max-width: 1074px;
+	margin: auto;
+	padding: 120px 0;
+}
+
+.header .subtitle {
+	color: #7a1d47;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 0;
+	padding-bottom: 14px;
+}
+
+.header .title {
+	color: rgb(33, 33, 33);
+	line-height: 1.18;
+	width: 736px;
+	margin: 0;
+	padding-bottom: 36px;
+}
+
+.header .button-start {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f65858;
+	border: 1px solid #f65858;
+	color: #fff;
+	width: 246px;
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 8px;
+	line-height: 1.43;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	transition: all 0.15s;
+}
+
+.header .button-start:hover {
+	background-color: rgba(246,88,88,.9);
+    border: 1px solid rgba(246,88,88,.9);
+}
