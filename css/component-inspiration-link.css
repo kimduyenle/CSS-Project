@@ -1,0 +1,83 @@
+.inspiration-link {
+	display: inline-block;
+	padding: 20px 20px 20px 0;
+	flex-basis: 25%;
+	flex-grow: 1;
+}
+
+.inspiration-link .inspiration {
+	border-radius: 0 0 8px 8px;
+	box-shadow: 0 0 2px 0 rgba(46,62,72,.12), 0 2px 4px 0 rgba(46,62,72,.12);
+	transition: all 0.25s;
+}
+
+.inspiration-link .inspiration:hover {
+	box-shadow: 0 0 4px 0 rgba(46,62,72,.12), 0 4px 12px 0 rgba(46,62,72,.12);
+	transform: translateY(-1px);
+}
+
+.inspiration-link .inspiration .view-image {
+	border-radius: 8px 8px 0 0;
+	width: 100%;
+	height: 140px;
+	object-fit: cover;
+}
+
+.inspiration-link .inspiration .content {
+	padding: 20px;
+}
+
+.inspiration-link .inspiration .content .text-gray {
+	font-size: 14px;
+	color: #757575;
+}
+
+.inspiration-link .inspiration .content .subtitle {
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.inspiration-link .inspiration .content .title {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.4;
+	color: rgb(33, 33, 33);
+	margin: 0;
+	height: 56px;
+	display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.inspiration-link .inspiration .content .address {
+	font-size: 14px;
+	font-weight: 400;
+	color: rgb(33, 33, 33);
+	margin: 0 0 14px;
+}
+
+.inspiration-link .inspiration .content .group span {
+	height: 16px;
+	display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.inspiration-link .inspiration .content .avatar {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0 8px 0 0;
+
+}
+
+.inspiration-link .inspiration .content .avatar img {
+	width: 30px;
+	height: 30px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
