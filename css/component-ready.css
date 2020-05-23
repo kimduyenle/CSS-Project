@@ -1,0 +1,45 @@
+.ready {
+	max-width: 1074px;
+	margin: auto;
+}
+
+.ready .bg {
+	height: 281px;
+    width: 100%;
+	background-image: url(/images/last-call@1x.1d361bd9.jpg);
+	background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ready .bg .title {
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+.ready .bg a {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f65858;
+    border: 1px solid #f65858;
+    color: #fff;
+    width: 160px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    line-height: 1.43;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    transition: all 0.15s;
+}
+
+.ready .bg a:hover {
+	background-color: rgba(246,88,88,.9);
+    border: 1px solid rgba(246,88,88,.9);
+}
