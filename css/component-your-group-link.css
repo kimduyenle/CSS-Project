@@ -1,0 +1,50 @@
+.your-group-link {
+	flex-basis: 50%;
+	flex-grow: 1;
+	padding-right: 20px;
+}
+
+.your-group-link .your-group {
+	border-radius: 0 0 8px 8px;
+	box-shadow: 0 0 4px 0 rgba(46,62,72,.05), 0 4px 8px 0 rgba(46,62,72,.05);
+	transition: all 0.25s;
+}
+
+.your-group-link .your-group:hover {
+	box-shadow: 0 0 8px 0 rgba(46,62,72,.05), 0 8px 12px 0 rgba(46,62,72,.05);
+	transform: translateY(-2px);
+}
+
+.your-group-link .your-group .fix-w {
+	border-radius: 8px 8px 0 0;
+	width: 100%;
+}
+
+.your-group-link .your-group .content {
+	padding: 40px 118px 40px 34px;
+}
+
+.your-group-link .your-group .content .title {
+	color: rgb(33, 33, 33);
+	font-size: 28px;
+	font-weight: 600;
+	margin: 0;
+	padding-bottom: 28px;
+}
+
+.your-group-link .your-group .content .subtitle {
+	color: rgb(33, 33, 33);
+	margin: 0;
+	padding-bottom: 60px;
+}
+
+.group {
+	display: flex;
+	align-items: center;
+}
+
+.your-group-link .your-group .content .group .start-group {
+	color: rgb(0, 162, 199);
+	font-weight: 500;
+	padding-right: 8px;
+}
